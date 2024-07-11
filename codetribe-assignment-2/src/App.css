@@ -1,0 +1,33 @@
+.background{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.circle{
+    background-color: #e5f3ef;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: -15rem;
+    left: 25rem;
+}
+
+@media (max-width: 1035px) {
+        .circle{
+
+           left:15rem;
+        }
+}
+
+@media (max-width: 770px) {
+    .circle{
+        width: 500px;
+        height: 500px;
+       left:9rem;
+    }
+}

@@ -1,0 +1,74 @@
+.bodyContainer {
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* grid-template-columns: repeat(auto-fit,2fr); */
+}
+
+/* .background{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: -1;
+}
+
+.circle{
+    background-color: #e5f3ef;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+} */
+
+.rewardLogo,
+.rewardLogo img {
+  width: 30%;
+  height: auto;
+  /* background-color: blue; */
+}
+
+.bodyLargeText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  line-height:1;
+  /* justify-content: flex-end; */
+}
+
+.bodyLargeText h4 {
+  text-align: end;
+}
+
+#boldText {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #008e65;
+}
+
+#signUp{
+    font-size: 0.7rem;
+    color: #a2988c;
+}
+
+@media (max-width: 1080px) {
+  #boldText {
+    font-size: 3rem;
+    /* font-weight: 200; */
+  }
+}
+
+@media (max-width: 675px) {
+  #boldText {
+    font-size: 1.5rem;
+    /* font-weight: 200; */
+  }
+}

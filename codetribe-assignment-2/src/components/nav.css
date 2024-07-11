@@ -1,0 +1,104 @@
+.navContainer {
+  width: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoHeading {
+  display: flex;
+  align-items: center;
+}
+
+.logo,
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.heading,
+.heading ul,
+.heading li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #69605b;
+  
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  text-decoration: overline;
+}
+
+.search input {
+  width: 200px;
+  border-style: none;
+  background-color: #e5f3ef;
+}
+
+.basket {
+  width: 200px;
+  height: 0px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.basketText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basketText h4 {
+  font-weight: 400;
+}
+
+#one {
+  font-size: 20px;
+  color: orangered;
+}
+
+@media (max-width: 770px) {
+  .logo,
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .search input{
+    width: 100px;
+  }
+  #one {
+    font-size: 10px;
+    color: orangered;
+  }
+
+  .basketText h4 {
+    font-weight: 400;
+    font-size: 0.3rem;
+  }
+
+  .heading{
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width:545px) {
+    .search input{
+        width: 50px;
+      }
+
+      .logo,
+      .logo img {
+        width: 15px;
+        height: 15px;
+      }
+    
+}

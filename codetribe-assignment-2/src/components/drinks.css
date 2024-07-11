@@ -1,0 +1,90 @@
+
+.drinkContainer {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.drink-1,
+.drink-2,
+.drink-3,
+.drink-4 {
+  height: 330px;
+  background-color: #eae9e5;
+  position: relative;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  transition: transform 0.3s;
+
+}
+
+.drink-1:hover,
+.drink-2:hover,
+.drink-3:hover,
+.drink-4:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.3); 
+    background: url(../assets/pattern.png);
+    background-color: darkgreen;
+    z-index: 1;
+  }
+
+
+.drink-1 img,
+.drink-2 img,
+.drink-3 img,
+.drink-4 img {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  right: 5rem;
+  top: -5rem;
+}
+
+#drinkName {
+  font-size: 20px;
+  font-weight: 500px;
+  align-self: flex-start;
+  margin-left: 30px;
+  color: #a49b8f;
+  margin-bottom: 8px;
+}
+
+#drinkStats {
+  font-size: 15px;
+  margin: 5px 30px;
+  align-self: flex-start;
+  color: #a49b8f;
+}
+
+#drinkStats-1,
+#drinkStats-2 {
+  font-size: 15px;
+  margin: 5px 40px;
+  align-self: flex-start;
+  color: #a2988c;
+}
+
+@media (max-width: 1035px) {
+  .drink-1 img,
+  .drink-2 img,
+  .drink-3 img,
+  .drink-4 img {
+    width: 100px;
+    height: 150px;
+    /* position: absolute; */
+    right: 7rem;
+    top: 0;
+  }
+
+  #drinkName{
+    margin-top: 20px;
+  }
+}
