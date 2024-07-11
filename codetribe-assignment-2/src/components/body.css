@@ -35,6 +35,12 @@
   /* background-color: blue; */
 }
 
+/* .bottom{
+  border-bottom: #008e65;
+  font-size: 0.7rem;
+  color: #a2988c;
+} */
+
 .bodyLargeText {
   width: 50%;
   display: flex;
@@ -57,6 +63,12 @@
 #signUp{
     font-size: 0.7rem;
     color: #a2988c;
+}
+
+#bottom{
+  border-bottom: #008e65;
+  font-size: 0.7rem;
+  color: #a2988c;
 }
 
 @media (max-width: 1080px) {

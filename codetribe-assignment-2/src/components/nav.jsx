@@ -30,7 +30,7 @@ function Nav() {
             </div>
 
             <div className="search">
-              <input type="text" placeholder="SEARCH"/> <LiaSearchSolid id="icon"/>
+              <input className="bottom" type="text" placeholder="SEARCH"/> <LiaSearchSolid id="icon"/>
             </div>
             <div className="basket">
               <div className="basketText">

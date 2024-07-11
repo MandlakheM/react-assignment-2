@@ -74,7 +74,14 @@
 
   .search input{
     width: 100px;
+    outline:none;
+    border-bottom: grey;
+    border-style: none;
+    padding-bottom: 5px;
   }
+
+ 
+
   #one {
     font-size: 10px;
     color: orangered;

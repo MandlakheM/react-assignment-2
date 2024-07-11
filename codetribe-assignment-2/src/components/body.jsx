@@ -26,7 +26,7 @@ function Body() {
             </a>
           </div>
         </div>
-    </div>
+      </div>
     </>
   );
 }
