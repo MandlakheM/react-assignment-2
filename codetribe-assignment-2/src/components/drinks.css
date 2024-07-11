@@ -48,11 +48,11 @@
     color: #fff;
   }
 
-  .button{
+  .button {
     display: unset;
   }
 
-  .arrows{
+  .arrows {
     display: flex;
     justify-content: space-between;
     width: 250px;
@@ -62,7 +62,7 @@
   }
 }
 
-.button{
+.button {
   display: none;
   background-color: #fff;
   width: 150px;
@@ -99,7 +99,7 @@
   top: -6rem;
 }
 
-.arrows{
+.arrows {
   display: none;
   /* background-color: aqua; */
 }
@@ -129,18 +129,19 @@
 }
 
 @media (max-width: 1035px) {
-  .drink-1 img,
+ .drink-1 img,
   .drink-2 img,
   .drink-3 img,
   .drink-4 img {
     width: 100px;
     height: 150px;
-    /* position: absolute; */
+   position: absolute;
     right: 7rem;
     top: 0;
-  }
+  } 
 
   #drinkName {
     margin-top: 20px;
   }
+
 }
