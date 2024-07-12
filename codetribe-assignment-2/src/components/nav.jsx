@@ -30,16 +30,17 @@ function Nav() {
             </div>
 
             <div className="search">
-              <input className="bottom" type="text" placeholder="SEARCH"/> <LiaSearchSolid id="icon"/>
+              <input  type="text" placeholder="SEARCH" />
+              <LiaSearchSolid id="icon" />
             </div>
             <div className="basket">
               <div className="basketText">
-              <Bs1CircleFill  id="one"/>
+                <Bs1CircleFill id="one" />
                 <h4>MY BASKET</h4>
               </div>
               <div className="basketIcon">
                 <a href="">
-                  <RxHamburgerMenu id="icon"/>
+                  <RxHamburgerMenu id="icon" />
                 </a>
               </div>
             </div>

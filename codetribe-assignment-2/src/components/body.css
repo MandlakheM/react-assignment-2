@@ -61,14 +61,15 @@
 }
 
 #signUp{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #a2988c;
 }
 
-#bottom{
-  border-bottom: #008e65;
-  font-size: 0.7rem;
+#bottom {
+  font-size: 1rem;
   color: #a2988c;
+  text-decoration:underline;
+  text-decoration-color: #008e65 ;
 }
 
 @media (max-width: 1080px) {

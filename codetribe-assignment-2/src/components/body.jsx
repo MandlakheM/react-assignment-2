@@ -21,8 +21,8 @@ function Body() {
               season
             </h6>
             <br />
-            <a href="">
-              <h6 id="signUp">SEND ME MAGIC</h6>
+            <a id="bottom" href="">
+              <h6 >SEND ME MAGIC</h6>
             </a>
           </div>
         </div>

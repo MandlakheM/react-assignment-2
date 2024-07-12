@@ -32,14 +32,31 @@
 .search {
   display: flex;
   align-items: center;
-  text-decoration: overline;
+  justify-content: space-between;
+  /* text-decoration:underline;
+  text-decoration-color: #008e65 ; */
+  width: 350px;
+  /* box-shadow: 2px 1px #69605b ; */
+  /* background-color: #69605b; */
+  border-bottom: #69605b;
+
 }
 
 .search input {
   width: 200px;
   border-style: none;
   background-color: #e5f3ef;
+  /* text-decoration: underline;
+  text-decoration-color: #008e65 ; */
 }
+
+.underline{
+  width: 350px;
+  height: 0.2em;
+  background-color: #69605b;
+  align-self: flex-end;
+  justify-self:start;
+} 
 
 .basket {
   width: 200px;
