@@ -51,8 +51,8 @@ function drinks() {
             </div>
             <div className="stats">
               <h6 id="drinkStats">Calories</h6>
-              <h6 id="drinkStats">Total Fat 19g</h6>
-              <h6 id="drinkStats-1">saturated Fat 13g</h6>
+              <h6 id="drinkStats-1">Total Fat 19g 29%</h6>
+              <h6 id="drinkStats-1">saturated Fat 13g </h6>
               <h6 id="drinkStats-2">Trans Fat 0.5g</h6>
             </div>
             <button className="button">ADD TO BASKET</button>
@@ -97,8 +97,8 @@ function drinks() {
             </div>
             <div className="stats">
               <h6 id="drinkStats">Calories</h6>
-              <h6 id="drinkStats">Total Fat 19g</h6>
-              <h6 id="drinkStats-1">saturated Fat 13g</h6>
+              <h6 id="drinkStats-1">Total Fat 19g 29%</h6>
+              <h6 id="drinkStats-1">saturated Fat 13g </h6>
               <h6 id="drinkStats-2">Trans Fat 0.5g</h6>
             </div>
             <button className="button">ADD TO BASKET</button>
@@ -143,8 +143,8 @@ function drinks() {
             </div>
             <div className="stats">
               <h6 id="drinkStats">Calories</h6>
-              <h6 id="drinkStats">Total Fat 19g</h6>
-              <h6 id="drinkStats-1">saturated Fat 13g</h6>
+              <h6 id="drinkStats-1">Total Fat 19g 29%</h6>
+              <h6 id="drinkStats-1">saturated Fat 13g </h6>
               <h6 id="drinkStats-2">Trans Fat 0.5g</h6>
             </div>
             <button className="button">ADD TO BASKET</button>
@@ -189,8 +189,8 @@ function drinks() {
             </div>
             <div className="stats">
               <h6 id="drinkStats">Calories</h6>
-              <h6 id="drinkStats">Total Fat 19g</h6>
-              <h6 id="drinkStats-1">saturated Fat 13g</h6>
+              <h6 id="drinkStats-1">Total Fat 19g 29%</h6>
+              <h6 id="drinkStats-1">saturated Fat 13g </h6>
               <h6 id="drinkStats-2">Trans Fat 0.5g</h6>
             </div>
             <button className="button">ADD TO BASKET</button>
